@@ -1,0 +1,36 @@
+.#{$prefix}-faculty-fee-option{
+    // min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    @extend %background-position;
+    @extend %perspective;
+    background-attachment: fixed;
+    background-color: $color_red;
+    &:before{ 
+        @extend %overlay;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .#{$prefix}-title{
+        padding-bottom: 45px;
+        h1{
+            color: $color_white;
+        }
+
+        .#{$prefix}-dots{
+            background-color:$color_white;
+            &:before,
+            &:after{
+                background-color: $color_white;
+            }
+        }
+    }
+
+    .#{$prefix}-btn{
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-right: 10px;
+        font-size: 24px;
+    }
+}

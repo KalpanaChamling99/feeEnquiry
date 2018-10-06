@@ -1,0 +1,18 @@
+.kcmit-student-fee-table{
+    thead{
+        th{
+            background-color: #EEEEEE;
+        }
+    }
+    tbody{
+        input{
+            background-color: transparent;
+            border: 0;
+        }
+        tr{
+            &:nth-child(odd){
+                background-color: rgba(0,0,0,0.05)
+            }
+        }
+    }
+}

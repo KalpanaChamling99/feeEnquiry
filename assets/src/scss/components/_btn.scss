@@ -1,0 +1,27 @@
+.#{$prefix}-btn{
+    padding: 7.5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: $color_white;
+    &:hover{
+        color: $color_white;
+        text-decoration: none;
+    }
+    
+}
+.#{$prefix}-btn-bg-primary{
+    background-color: $color_primary;
+   
+}
+.#{$prefix}-btn-bg-red{
+    background-color: $color_red;
+}
+.#{$prefix}-btn-bg-white{
+    color: $color_primary;
+    background-color: $color_white;
+    &:hover{
+        color: $color_primary;  
+    }
+   
+}

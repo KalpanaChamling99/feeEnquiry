@@ -1,0 +1,16 @@
+
+.#{$prefix}-background-gray{
+    background-color: $color_light_gray;
+}
+.#{$prefix}-text-yellow{
+    color: $color_yellow;
+}
+.#{$prefix}-text-green{
+    color: $color_green;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }

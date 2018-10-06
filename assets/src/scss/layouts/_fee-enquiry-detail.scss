@@ -1,0 +1,22 @@
+.kcmit-fee-enquiry-detail{
+    padding: 45px 30px;
+    background-color: #fcfafa;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: $font_weight_semi_bold;
+    box-shadow:0 0 10px 5px #AFAFAF;
+    p{
+        &:last-child{
+            margin-bottom: 0;
+        }
+        small{
+            font-weight: $font_weight_bold;
+            font-size: 70%;
+        }
+        span{
+            display: inline-block;
+            padding-right: 15px;
+            font-size: 20px;
+        }
+    }
+}

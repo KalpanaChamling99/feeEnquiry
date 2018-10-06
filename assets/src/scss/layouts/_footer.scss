@@ -1,0 +1,12 @@
+footer{
+    background-color: $color_primary;
+    color: $color_white;
+    text-align: center;
+    padding:15px 30px;
+    font-size: 14px;
+    p{
+        margin: 0;
+        text-align: center;
+        font-weight: $font_weight_semi_bold;
+    }
+}

@@ -1,0 +1,48 @@
+.#{$prefix}-header{
+    background: $color_primary;
+    display: flex;  
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    color: $color_white;
+    .#{$prefix}-site-title{
+        float: left;
+        width: 60%;
+        h2{
+            font-weight: $font_weight_bold;
+            font-size: 20px;
+            margin: 0;
+        }
+    }
+    
+
+    .#{$prefix}-site-contact{
+        float: left;
+        width: 40%;
+        text-align: right;
+        .#{$prefix}-address{
+            font-weight: $font_weight_semi_bold;
+            display: inline-block;
+            padding-right: 15px;
+        }
+        .#{$prefix}-tel{
+            a{
+                color: $color_white;
+                text-decoration: none;
+                &:hover{
+                    color: $color_light_sky_blue;
+                }
+                
+                .#{$prefix}-phone-logo{
+                    display: inline-block;
+                    padding-right: 8px;
+                    img{
+                        height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

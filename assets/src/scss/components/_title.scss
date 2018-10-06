@@ -1,0 +1,42 @@
+$dot_width: 0.8rem;
+.#{$prefix}-title{
+    h1{
+        text-align: center;
+        color: $color_primary; 
+        font-size: 1.5rem;
+        line-height: 1;
+        font-weight: $font_weight_bold;
+        margin: 0;
+    }
+    .#{$prefix}-dots{
+        position: relative;
+        top: -1px;
+        width: $dot_width;
+        height: $dot_width;
+        margin-right: 1rem;
+        margin-left: 1.6rem;
+        background-color: $color_primary;
+        display: inline-block;
+        border-radius: 50%;
+        &:after{
+            content: '';
+            position: absolute;
+            top: 2px;
+            right: calc( 100% + 3px );
+            width: 68%;
+            height: 70%;
+            background-color: $color_primary;
+            border-radius: 50%;
+        }
+        &:before{
+            content: '';
+            top: 3.5px;
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            right: calc( 180% + 5px);
+            background-color: $color_primary;
+            border-radius: 50%;
+        }
+    }
+}
